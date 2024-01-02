@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nedavnipostovis",
+  "info": {
+    "singularName": "nedavnipostovi",
+    "pluralName": "nedavnipostovis",
+    "displayName": "Nedavni Postovi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "tags": {
+      "type": "json"
+    },
+    "category": {
+      "type": "string"
+    },
+    "slugprefix": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "istaknuterecenzijes",
+  "info": {
+    "singularName": "istaknuterecenzije",
+    "pluralName": "istaknuterecenzijes",
+    "displayName": "Istaknute Recenzije",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "tags": {
+      "type": "json"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

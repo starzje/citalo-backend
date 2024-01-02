@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Recenzije",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 240
+    },
+    "datum": {
+      "type": "date"
+    },
+    "brojstranica": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext",
+      "maxLength": 872,
+      "minLength": 500
+    },
+    "translation": {
+      "type": "string"
+    }
+  }
+}
