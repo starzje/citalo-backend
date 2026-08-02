@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "trenutna_knjigas",
+  "info": {
+    "singularName": "trenutna-knjiga",
+    "pluralName": "trenutna-knjigas",
+    "displayName": "Trenutna knjiga",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
